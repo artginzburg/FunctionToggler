@@ -1,4 +1,4 @@
-<h1 align="center">Function Toggler<img height="90" src="icon.png"></h1>
+<h1 align="center">Function Toggler <img align="center" height="90" src="icon.png"></h1>
 <p align="center">Quickly toggle the
 <strong>"Use all F1, F2, etc. keys as standard function keys"</strong>
 option in macOS System Preferences</p>
