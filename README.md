@@ -17,18 +17,13 @@ brew cask install dafuqtor/tap/functiontoggler
 
 ### Via Source Code
 
+> also allows to `make uninstall`
+
 ```powershell
 git clone https://github.com/DaFuqtor/FunctionToggler
 cd FunctionToggler
 make
 ```
-
-Running the `make` command installs following files:
-
-- The `Function Toggler` itself.
-- A service of the same name that allows to switch fn-state with a keyboard shortcut.
-
-(Don't need the app anymore? `make uninstall`)
 
 ---
 
@@ -46,7 +41,7 @@ Simply run the app.
 I like to do it from Spotlight:
 
 1. Press <kbd>⌘</kbd> + <kbd>space</kbd> (or similar) to open Spotlight.
-2. Start typing `fun`, `Function Toggler` should be the Top Hit.
+2. Start typing `fun`, continue until `Function Toggler` appear in the Top Hit section.
 3. Hit <kbd>Enter</kbd>.
 
 ## Enable the Keyboard shortcut
