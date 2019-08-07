@@ -9,6 +9,12 @@ option in macOS System Preferences</p>
 
 ## Install
 
+### Using [Homebrew](//brew.sh)
+
+```powershell
+brew cask install dafuqtor/tap/functiontoggler
+```
+
 ### Via Source Code
 
 ```powershell
