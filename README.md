@@ -1,11 +1,23 @@
-<h1 align="center">Function Toggler <img align="center" height="90" src="icon.png"></h1>
-<p align="center">Quickly toggle the
-<strong>"Use all F1, F2, etc. keys as standard function keys"</strong>
-option in macOS System Preferences</p>
+<h1 align="center">
+   Function Toggler <img align="center" height="90" src="icon.png">
+</h1>
+
+<p align="center">
+   Quickly toggle the <strong>"Use all F1, F2, etc. keys as standard function keys"</strong> option in macOS System Preferences
+</p>
 
 > By “Quickly” I mean “Through the shortcut”
 
 ![keyboard settings](screenshots/kb-sets.png)
+
+<h2 align="center">
+   <a href="//github.com/DaFuqtor/FunctionToggler/releases/latest/download/FunctionToggler.zip">
+      Download latest release
+   </a>
+   <a href="//github.com/DaFuqtor/FunctionToggler/releases/latest">
+      <img align="right" alt="GitHub release" src="https://img.shields.io/github/release/dafuqtor/functiontoggler">
+   </a>
+</h2>
 
 ## Install
 
