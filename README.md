@@ -1,5 +1,5 @@
 <h1 align="center">
-   Function Toggler <img align="center" height="90" src="icon.png">
+   Function Toggler <img align="center" height="90" src="icon/icon.png">
 </h1>
 
 <p align="center">
@@ -15,19 +15,29 @@
 ### Via [Homebrew Cask](//brew.sh) (Recommended)
 
 ```powershell
-brew cask install dafuqtor/tap/functiontoggler
+brew cask install artginzburg/tap/functiontoggler
 ```
 
 ### Direct Download
 
-  **[Latest Release ![GitHub release](https://img.shields.io/github/release/dafuqtor/functiontoggler?label=%20)](//github.com/DaFuqtor/FunctionToggler/releases/latest/download/FunctionToggler.zip)**
+  **[Latest Release ![GitHub release](https://img.shields.io/github/release/artginzburg/functiontoggler?label=%20)](//github.com/artginzburg/FunctionToggler/releases/latest/download/FunctionToggler.zip)**
 
 ### Using Source Code
+
+1. Install [`platypus`](https://github.com/sveinbjornt/Platypus) CLI.
+
+> I use it instead of `osacompile -o MyScript.app MyScript.scpt` because it offers better interface and for some reason compiles to less size.
+
+```powershell
+brew install platypus
+```
+
+2. Clone, set current directory and run the build command.
 
 > also allows to `make uninstall`
 
 ```powershell
-git clone https://github.com/DaFuqtor/FunctionToggler
+git clone https://github.com/artginzburg/FunctionToggler
 cd FunctionToggler
 make
 ```

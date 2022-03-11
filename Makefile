@@ -1,5 +1,8 @@
 FT = Function\ Toggler
 
+build:
+	platypus -P src/$(FT).platypus $(FT)
+
 install: uninstall
 	unzip -q release
 	cp -r $(FT).app /Applications/
