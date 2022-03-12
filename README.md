@@ -73,3 +73,9 @@ Go to `System Preferences` > `Keyboard` > `Shortcuts` > `Services` > `General` (
 ![keybard-shortcut](screenshots/kb-short.png)
 
 > The workflow (service) just runs the app, so it won't work without it.
+
+## How to release
+
+1. Run `make build`
+2. Compress the app and the workflow into a single archive. Make sure that if you rename the archive, its name after unzipping also changes.
+3. Release the archive.
