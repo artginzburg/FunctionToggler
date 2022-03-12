@@ -6,6 +6,10 @@ build: compile
 compile:
 	osacompile -o src/$(FT).scpt src/$(FT).applescript
 
+release: build
+	mv $(FT).app dist
+	zip -r dist dist
+
 install: uninstall
 	cp -r $(FT).app /Applications/
 	cp -r $(FT).workflow ~/Library/Services/
