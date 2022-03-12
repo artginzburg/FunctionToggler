@@ -15,10 +15,10 @@
 ### Via [Homebrew Cask](//brew.sh) (Recommended)
 
 ```ps1
-brew cask install artginzburg/tap/functiontoggler
+brew install --cask --no-quarantine artginzburg/tap/functiontoggler
 ```
 
-> Check out [the cask](https://github.com/artginzburg/homebrew-tap/blob/main/Casks/functiontoggler.rb) if you're interested.
+> Check out [the cask][cask] if you're interested.
 
 ### Direct Download
 
@@ -42,6 +42,7 @@ brew install platypus
 git clone https://github.com/artginzburg/FunctionToggler
 cd FunctionToggler
 make
+make install
 ```
 
 ---
@@ -74,8 +75,10 @@ Go to `System Preferences` > `Keyboard` > `Shortcuts` > `Services` > `General` (
 
 > The workflow (service) just runs the app, so it won't work without it.
 
-## How to release
+### How to release
 
-1. Run `make build`
-2. Compress the app and the workflow into a single archive. Make sure that if you rename the archive, its name after unzipping also changes.
-3. Release the archive.
+1. Run `make build` and `make release`.
+2. Upload the generated archive — `dist/FunctionToggler.zip` — to GitHub Releases.
+3. Update [the cask][cask] with the new version number and the checksum that lies in your clipboard after running `make release`.
+
+[cask]: https://github.com/artginzburg/homebrew-tap/blob/main/Casks/functiontoggler.rb
