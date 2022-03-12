@@ -1,7 +1,10 @@
 FT = Function\ Toggler
 
-build:
+build: compile
 	platypus -P src/$(FT).platypus $(FT)
+
+compile:
+	osacompile -o src/$(FT).scpt src/$(FT).applescript
 
 install: uninstall
 	unzip -q release
