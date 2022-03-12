@@ -18,6 +18,8 @@
 brew cask install artginzburg/tap/functiontoggler
 ```
 
+> Check out [the cask](https://github.com/artginzburg/homebrew-tap/blob/main/Casks/functiontoggler.rb) if you're interested.
+
 ### Direct Download
 
 **[Latest Release ![GitHub release](https://img.shields.io/github/release/artginzburg/functiontoggler?label=%20)](//github.com/artginzburg/FunctionToggler/releases/latest/download/FunctionToggler.zip)**
