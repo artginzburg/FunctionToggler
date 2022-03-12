@@ -8,7 +8,7 @@ compile:
 
 release: build
 	mv $(FT).app dist
-	zip -r dist dist
+	zip -r -X dist dist
 
 install: uninstall
 	cp -r $(FT).app /Applications/
