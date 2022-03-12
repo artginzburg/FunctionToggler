@@ -69,3 +69,5 @@ I like to do it from Spotlight:
 Go to `System Preferences` > `Keyboard` > `Shortcuts` > `Services` > `General` (at the end of the list) and assign a new shortcut to `Function Toggler` service
 
 ![keybard-shortcut](screenshots/kb-short.png)
+
+> The workflow (service) just runs the app, so it won't work without it.
