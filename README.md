@@ -26,15 +26,7 @@ brew install --cask --no-quarantine artginzburg/tap/functiontoggler
 
 ### Using Source Code
 
-1. Install [`platypus`](https://github.com/sveinbjornt/Platypus) CLI.
-
-> I use it instead of `osacompile -o MyScript.app MyScript.scpt` because it offers better interface and for some reason compiles to less size.
-
-```ps1
-brew install platypus
-```
-
-2. Clone, set current directory and run the build command.
+Clone, set current directory, install dependencies and run the build command.
 
 > also allows to `make uninstall`
 
@@ -42,8 +34,11 @@ brew install platypus
 git clone https://github.com/artginzburg/FunctionToggler
 cd FunctionToggler
 make
+make build
 make install
 ```
+
+> I use [`platypus`](https://github.com/sveinbjornt/Platypus) CLI for building instead of `osacompile -o MyScript.app MyScript.scpt` because it offers better interface and for some reason compiles to less size.
 
 ---
 

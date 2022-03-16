@@ -1,6 +1,9 @@
 FT = Function\ Toggler
 FTid = FunctionToggler
 
+bundle:
+	brew bundle
+
 build: compile
 	platypus -P src/$(FT).platypus dist/$(FT)
 
