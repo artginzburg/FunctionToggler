@@ -1,9 +1,17 @@
-tell application "System Preferences" to quit -- to skip UI animations (to work faster)
 tell application "System Preferences"
-	reveal anchor "keyboardTab" of pane "com.apple.preference.keyboard"
+  quit -- to skip UI animations (to work faster)
+  -- do not `activate` before revealing anchor, since it would trigger an animation, slowing down the script
+  reveal anchor "keyboardTab" of pane "com.apple.preference.keyboard"
 end tell
-delay 0.2 -- instead of getting loading state
-tell application "System Events" to tell process "System Preferences"
-	click checkbox 3 of tab group 0 of window 1
+
+tell application "System Events" to tell window "Keyboard" of process "System Preferences"
+  repeat until checkbox 3 of tab group 1 exists
+    delay 0.1
+  end repeat
+
+  tell its tab group 1
+    click checkbox 3
+  end tell
 end tell
+
 tell application "System Preferences" to quit -- later, we can implement returning to previous System Preferences tab, but that sounds like overkill

@@ -51,6 +51,14 @@
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
         "macOS": "11.6.2"
+      },
+      "monterey": {
+        "HOMEBREW_VERSION": "3.6.8-89-g7c55ef8",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "eecac744103d92d0db2dc3fe6ebf338172f6669e",
+        "CLT": "14.0.0.0.1.1661618636",
+        "Xcode": "13.4.1",
+        "macOS": "12.6"
       }
     }
   }
