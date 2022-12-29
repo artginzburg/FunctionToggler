@@ -27,7 +27,7 @@
 	<key>ExecutablePath</key>
 	<string>/opt/homebrew/Cellar/platypus/5.3/share/platypus/ScriptExec</string>
 	<key>IconPath</key>
-	<string>/Users/artginzburg/Library/Application Support/Platypus/PlatypusIcon-33653.icns</string>
+	<string>./dist/Function Toggler.workflow/Contents/Resources/workflowCustomImage.icns</string>
 	<key>Identifier</key>
 	<string>org.artginzburg.FunctionToggler</string>
 	<key>InterfaceType</key>
@@ -53,7 +53,7 @@
 	<key>ScriptArgs</key>
 	<array/>
 	<key>ScriptPath</key>
-	<string>/Users/artginzburg/FunctionToggler/dist/Function Toggler.scpt</string>
+	<string>./dist/Function Toggler.scpt</string>
 	<key>StatusItemDisplayType</key>
 	<string>Text</string>
 	<key>StatusItemIcon</key>
