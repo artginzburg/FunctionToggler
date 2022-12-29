@@ -1,5 +1,8 @@
 tell application "System Preferences"
   quit -- to skip UI animations (to work faster)
+  repeat until application "System Preferences" is not running
+    delay 0.1
+  end repeat
   -- do not `activate` before revealing anchor, since it would trigger an animation, slowing down the script
   reveal anchor "keyboardTab" of pane "com.apple.preference.keyboard"
 end tell
