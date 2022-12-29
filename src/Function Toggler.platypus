@@ -61,7 +61,9 @@
 	<key>TextSize</key>
 	<real>13</real>
 	<key>URISchemes</key>
-	<array/>
+	<array>
+		<string>functiontoggler</string>
+	</array>
 	<key>UniformTypes</key>
 	<array>
 		<string>public.item</string>
